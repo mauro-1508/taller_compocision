@@ -1,0 +1,13 @@
+public class Docente {
+    private String nombre;
+    private String especialidad;
+
+    public Docente(String nombre, String especialidad) {
+        this.nombre = nombre;
+        this.especialidad = especialidad;
+    }
+
+    public void printInfo() {
+        System.out.println("Docente: " + nombre + " - Especialidad: " + especialidad);
+    }
+}
